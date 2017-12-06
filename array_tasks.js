@@ -25,9 +25,17 @@ var arrayTasks = {
 		return total;
 	},
 
-	// findDuplicates: function (arr) {
-
-	// },
+	findDuplicates: function (arr) {
+		newArray = arr.sort();
+		duplicates = [];
+		for (i = 0; i < newArray.length; i++) {
+			if (newArray[i] === newArray[i+1]) {
+				if (duplicates.includes(newArray[i]) === false)
+					duplicates.push(newArray[i]);
+			}
+		}
+		return duplicates;
+	},
 
 	// removeAndClone: function (arr, valueToRemove) {
 
