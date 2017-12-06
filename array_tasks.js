@@ -17,9 +17,13 @@ var arrayTasks = {
 		return newArray;
 	},
 
-	// sum: function (arr) {
-
-	// },
+	sum: function (arr) {
+		total = 0;
+		for (let number of arr) {
+			total += number;
+		}
+		return total;
+	},
 
 	// findDuplicates: function (arr) {
 
