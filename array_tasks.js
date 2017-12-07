@@ -36,10 +36,22 @@ var arrayTasks = {
 		}
 		return duplicates;
 	},
+  // use 2 arrays like Andrea - noice
+	// findDuplicatesALaAndrea: function (arr) {
+	// 	newArray = [];
+	// 	duplicates = [];
+	// 	for (i = 1, i < arr.length; i++) {
+	// 		newArray.push(arr[i])
+	// 		if (newArray.contains(arr[i+1])){
+	// 			duplicates.push(arr[i+1]);
+	// 		}
+	// 		else newArray.push(arr.[i+1])
+	// 	}
+	// 	return duplicates;
+	// }
+	removeAndClone: function (arr, valueToRemove) {
 
-	// removeAndClone: function (arr, valueToRemove) {
-
-	// },
+	},
 
 	// findIndexesOf: function (arr, itemToFind) {
 
